@@ -1,0 +1,40 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-9">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="continer_wrap">
+            <div class="container">
+                <header>
+                    <img class="brand_logo" src="img/logo.PNG">
+                </header>
+
+                <form name="login" action="" method="post"> <!--post: 정보를 보낸다 / get: 가져온다-->
+                    <input class="id" id="userID" type="text" placeholder="전화번호, 사용자 이름 또는 이메일">
+                    <input class="pwd" id="userPW" type="password" placeholder="비밀번호">
+                    <a href="#" style="color:white"><button class="loginBtn" id="loginBtn" disabled>로그인</button></a>
+                    
+                </form>
+<!-- 
+                <div class="or_line">
+                    <div class="line"></div>
+                    <div class="text">또는</div>
+                    <div class="line"></div>
+                </div> -->
+                <span class="findpw">비밀번호를 잊으셨나요?</span>
+                <div class="account">
+                    계정이 없으신가요?
+                    
+                </div>
+                <div class="signUp">가입하기</div>
+            </div>
+            
+        </div>
+        <script src="login.js"></script>
+    </body>
+
+</html>
